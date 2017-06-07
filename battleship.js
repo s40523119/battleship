@@ -31,5 +31,5 @@ while (isSunk == false) {
         }
     }
 }
-var stats = "you guessed " + guesses + " times, " + "Accuracy is " + (3/guesses);
+var stats = "you guessed " + guesses + " times, " + "Accuracy is " + (3/guesses) * 100 + "%";
 alert(stats);
